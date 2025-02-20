@@ -16,7 +16,7 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: "npm start"
+    command: "npm run dev"
 
   t-iot-902-db:
     image: postgres:15

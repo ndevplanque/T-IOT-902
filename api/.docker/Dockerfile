@@ -16,7 +16,7 @@ COPY . .
 RUN chmod +x .docker/npm.sh
 
 # Lancer l'application avec npm start
-CMD ["npm", "start"]
+CMD ["npm", "run", "dev"]
 
 # Exposer le port 3000
 EXPOSE 3000
